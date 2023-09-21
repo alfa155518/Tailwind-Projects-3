@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .container {
+        @apply m-1 p-1
+    }
+    .icon-link {
+        @apply  text-[12px] capitalize text-center mx-2 cursor-pointer duration-500 hover:text-[#fd3b57]
+    }
+    .main-btn {
+        @apply bg-[#fd3b57] p-1 text-white cursor-pointer rounded-sm
+    }
+    .card-services {
+        @apply flex-1 shadow-sm shadow-[#fd3f57] p-8 mx-2 cursor-pointer duration-1000 hover:scale-110 flex flex-wrap items-center gap-5
+    }
+    .name-sec {
+        @apply my-6 font-bold text-3xl uppercase
+    }
+    .name-box {
+        @apply absolute top-0 left-5 opacity-0  text-white bg-slate-900  w-[100%] h-full duration-700 hover:opacity-[0.5]
+    }
+    .new-products {
+        @apply grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6 gap-[50px] items-center
+    }
+    .option-product {
+        @apply  absolute w-full h-[60%] hidden md:flex  justify-center flex-wrap items-center gap-[30px] cursor-pointer bg-slate-500 text-white p-2 duration-700 opacity-0 hover:opacity-100
+    }
+    .add-cart {
+        @apply select-none  block bg-[#fd3d57] cursor-pointer text-white text-center font-bold p-1 rounded-sm
+    }
+    .head-name {
+        @apply font-bold text-xl text-slate-500
+    }
+    .size-name {
+        @apply cursor-pointer w-[30px] h-[30px] p-1 rounded-sm hover:bg-[#fd3d57] text-center shadow-lg
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer ul {
+    flex: 1;
+    margin: 10px;
+}
+
+footer ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+footer ul:not(:first-child) li:hover {
+    background-color: #fd3d57;
+    color: #FFF;
+}
+
+.list-categorie ul li input {
+    cursor: pointer;
+    accent-color: #fd3d57;
+    margin-right: 10px;
+}
+.list-categorie ul li span {
+    font-size: 15px;
+}

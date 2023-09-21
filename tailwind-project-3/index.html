@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+    <div class="page">
+        <!-- Start Nav -->
+        <nav class="container mx-auto p-2 flex flex-wrap items-center justify-between gap-4">
+            <img src="./images/logo.svg" alt="logo">
+            <form action="" class="hidden md:block relative m-2">
+                <i class="fa-solid fa-magnifying-glass absolute top-2 left-14 text-sm cursor-pointer"></i>
+                <input type="text" placeholder="Search" class=" p-1 rounded-sm outline-none border-[1px] border-red-500 border-r-0">
+                <span class="bg-[#fd3d57] p-1 text-white cursor-pointer absolute ">Search</span>
+            </form>
+            <div class="icons">
+                <i class="fa-regular fa-user icon-link">
+                    <span class="block mt-2">Account</span>
+                </i>
+                <i class="fa-regular fa-heart icon-link">
+                    <span class="block mt-2">Favorite</span>
+                </i>
+                <i class="fa-solid fa-cart-shopping icon-link">
+                    <span class="block mt-2">Products</span>
+                </i>
+            </div>
+        </nav>
+        <!-- End Nav -->
+        <!-- Start All Links -->
+        <div class="bg-slate-800 p-1 text-white ">
+            <ul class="flex items-center flex-wrap justify-around container mx-auto">
+                <li class="bg-[#fd3d57] p-1 rounded-sm cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                    All Categories
+                </li>
+                <li class="cursor-pointer duration-500 hover:bg-[#fd3d57] p-1 rounded-sm">Home</li>
+                <li class="cursor-pointer duration-500 hover:bg-[#fd3d57] p-1 rounded-sm"><a href="shop.html">Shop</a></li>
+                <li class="cursor-pointer duration-500 hover:bg-[#fd3d57] p-1 rounded-sm">About-Us</li>
+                <li class="cursor-pointer duration-500 hover:bg-[#fd3d57] p-1 rounded-sm">Contact</li>
+            </ul>
+        </div>
+        <!-- End All Links -->
+        <!-- Start Landing  -->
+        <section class="bg-no-repeat w-full h-[100vh]" style="background-image: url(./images/banner-bg.jpg);">
+            <div class="info text-center relative top-[20%] container mx-auto p-1">
+                <h2 class="text-2xl">Best Collection For Home Decoration</h2>
+                <p class="mb-4 text-md text-slate-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in repudiandae consectetur ipsum, aliquid illum?</p>
+                <span class="main-btn">Shop Now</span>
+            </div>
+        </section>
+        <!-- End Landing  -->
+        <!-- Start Services  -->
+        <section class="services container mx-auto flex flex-wrap items-center mb-[20px] pb-[30px]">
+            <div class="card-services ">
+                <img src="./icons/delivery-van.svg" alt="">
+                <div class="info">
+                    <h3 class="font-bold">Free Shopping</h3>
+                    <p class="font-thin">Driver 300</p>
+                </div>
+            </div>
+            <div class="card-services">
+                <img src="./icons/money-back.svg" alt="">
+                <div class="info">
+                    <h3 class="font-bold">Money Returns</h3>
+                    <p class="font-thin">30 Days Money Return</p>
+                </div>
+            </div>
+            <div class="card-services">
+                <img src="./icons/service-hours.svg" alt="">
+                <div class="info">
+                    <h3 class="font-bold">24/7 Supports</h3>
+                    <p class="font-thin">current Supporter</p>
+                </div>
+            </div>
+        </section>
+        <!-- End Services  -->
+        <!-- Start Categories -->
+        <section class="category container mx-auto my-10 py-10">
+            <h3 class="name-sec ">Shop By Category</h3>
+            <div class="all-boxes grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6 gap-[50px] items-center ">
+                <div class="box-category text-center relative">
+                    <img src="./category/category-1.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">Bedroom</p>
+                    </div>
+                </div>
+                <div class="box-category text-center relative">
+                    <img src="./category/category-2.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">sofa</p>
+                    </div>
+                </div>
+                <div class="box-category text-center relative">
+                    <img src="./category/category-3.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">office</p>
+                    </div>
+                </div>
+                <div class="box-category text-center relative">
+                    <img src="./category/category-4.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">Outdoor</p>
+                    </div>
+                </div>
+                <div class="box-category text-center relative">
+                    <img src="./category/category-5.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">maftrees</p>
+                    </div>
+                </div>
+                <div class="box-category text-center relative">
+                    <img src="./category/category-6.jpg" class="rounded-sm mx-5" alt="category-img">
+                    <div class="name-box">
+                        <p class="font-bold text-xl">Dinige</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Categories -->
+        <!-- Start New Arrival -->
+        <section class="new-arrival container mx-auto my-10 py-10">
+            <h3 class="name-sec">Top New Arrival</h3>
+            <div class="lg:grid-cols-4 new-products">
+                <div class="new-product relative   m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product1.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2 shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product8.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart ">Add To Cart</div>
+                </div>
+                <div class="new-product relative  m-2 shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product9.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class=" add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2 shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product12.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+            </div>
+        </section>
+        <!-- End New Arrival -->
+        <!-- Start Offer -->
+        <section class="offer container mx-auto my-12 py-10">
+            <img src="images/offer.jpg" alt="offer" class="rounded-sm cursor-pointer">
+        </section>
+        <!-- End Offer -->
+        <!-- Start Recommended -->
+        <section class="container mx-auto my-11 py-12">
+            <h3 class="name-sec">Recommended For You</h3>
+            <div class="new-products">
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product1.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product2.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart ">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product3.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class=" add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product4.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product5.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product6.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product7.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product8.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product9.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product10.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product11.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+                <div class="new-product relative m-2  shadow-2xl">
+                    <div class="option-product">
+                        <i class="fa-solid fa-magnifying-glass bg-[#fd3b57] rounded-full p-1"></i>
+                        <i class="fa-regular fa-user bg-[#fd3b57] rounded-full p-1"></i>
+                    </div>
+                    <img src="products/product12.jpg" class="mb-3 rounded-sm " alt="new-product">
+                    <h2 class=" p-4 text-2xl">Grue Chair</h2>
+                    <div class="prices my-2 px-2">
+                        <span class="text-[#fd3d57] font-bold text-xl">$45.00</span>
+                        <span class="line-through font-thin">$60.00</span>
+                    </div>
+                    <div class="stars text-orange-500 my-4 px-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="add-cart">Add To Cart</div>
+                </div>
+            </div>
+        </section>
+        <!-- End Recommended -->
+        <!-- Start Footer -->
+        <footer class="container mx-auto shadow-2xl">
+            <ul>
+                <li><img src="images/logo.svg" alt="logo"></li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, sed!</li>
+                <li class="footer-icons flex flex-wrap justify-between items-center my-2">
+                    <i class="fa-solid fa-brands fa-facebook  duration-700  hover:text-blue-600 text-xl"></i>
+                    <i class="fa-brands fa-twitter  duration-700  hover:text-blue-600 text-xl"></i>
+                    <i class="fa-brands fa-linkedin  duration-700  hover:text-blue-700 text-xl"></i>
+                    <i class="fa-brands fa-youtube duration-700   hover:text-red-700 text-xl"></i>
+                </li>
+            </ul>
+            <ul>
+                <li>Solution</li>
+                <li>Marketing</li>
+                <li>Articles</li>
+                <li>Commerce</li>
+                <li>Lights</li>
+            </ul>
+            <ul>
+                <li>Support</li>
+                <li>Pricing</li>
+                <li>Documentation</li>
+                <li>Oudies</li>
+                <li>API Status</li>
+            </ul>
+            <ul>
+                <li>Company</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Jobs</li>
+                <li>Press</li>
+            </ul>
+            <ul>
+                <li>Legal</li>
+                <li>Claim</li>
+                <li>Privacy</li>
+                <li>Policy</li>
+                <li>Terms</li>
+            </ul>
+        </footer>
+        <!-- End Footer -->
+    </div>
+</body>
+</html>
+<!-- <i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-regular fa-user"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-cart-shopping"></i>
+<i class="fa-solid fa-bars"></i>
+<i class="fa-regular fa-star"></i> -->
